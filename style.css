@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+
+    padding: 20px 100px;
+   /* height: 100vh;
+   width: 100vw; */
+    
+}
+.father{
+    display: grid;
+    grid-template-rows: 800px;
+    background-color: gray;
+    padding:20px;
+}
+
+.formbox {
+    /* box-shadow: 40px 40px 80px rgb(94, 92, 89); */
+    height: 100vh;
+    width: 800px;
+    padding:0 200px ;
+    /* padding: 50px; */
+    /* background-color: tomato; */
+    /* display: grid;
+    grid-template-columns: 300px;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    position: relative;
+
+}
+
+span {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    right:30px ;
+    bottom: 5px;
+    
+}
+button:hover {
+    /* background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    right:50px ; */
+    background-color: aqua;
+}
+
+.forminput9 input  {
+    border-radius:10px;
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    }
+   #forminput9 input   {
+        border-radius:10px;
+        padding: 10px;
+        height: 10px;
+        width: 100px;
+        }
+        #forminput9 input:focus   {
+         border-color: blueviolet;
+            }
+
+.forminput9 textarea {
+    padding: 20px;
+    margin: 30px 10px;
+    background-color: rgb(196, 184, 171);
+    height: 150px;
+    width: 300px;
+}
+
+.forminput9 {
+    margin-left: 30px;
+}
+
+.firstchild {
+    display: flex;
+}
+
+.secondchild {
+    display: flex;
+}
+
+.thirdchild {
+    display: flex;
+}
+
+.forthchild {
+    display: flex;
+}
+/* Tablet */
+@media(min-width: 501px) and (max-width: 768px) {
+    body {
+      font-family: sans-serif;
+    }
+    .container {
+
+       
+       /* height: 100vh;
+       width: 100vw; */
+        
+    }
+
+   .father {
+    
+       
+    }
+    .formbox {
+        /* box-shadow: 40px 40px 80px rgb(94, 92, 89); */
+        /* height: 100vh;
+        width: 800px; */
+        /* padding:0 200px ; */
+        /* padding: 50px; */
+        /* background-color: tomato; */
+        /* display: grid;
+        grid-template-columns: 300px;
+        justify-content: center; */
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        position: relative;
+    
+    }
+    .firstchild {
+        
+    }
+    
+    .secondchild {
+        
+    }
+    
+    .thirdchild {
+        
+    }
+    
+    .forthchild {
+        
+    }
+}
